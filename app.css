@@ -1,0 +1,45 @@
+* {margin: 0;padding: 0;}
+html, body {width: 100%;height: 100%; background:rgb(255, 153, 0); transition: all 1s ease;}
+
+#wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+#wrap > div {
+    width: 80%;
+}
+
+input {
+    font-size: 4em;
+    background: transparent;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-weight: lighter;
+    color: #fff;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    width: 80%;
+}
+
+#result {
+    font-size: 10em;
+    font-weight: bolder;
+    margin-top: 30px;
+    color: #fff;
+    line-height: 1;
+}
+
+#result:before {
+    content: 'Your Lucky Number!';
+    display: block;
+    font-weight: lighter;
+    font-size: 12pt;
+}
